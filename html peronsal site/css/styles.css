@@ -1,23 +1,26 @@
 
 
         body {
-            background-color: rgb(236, 245, 196);
+            background-color: rgb(219, 237, 183);
+            
         }
 
         hr {
-            position: relative;
-            float: left;
             border-color: black;
             border-style: none;
             border-top-style: dotted;
             border-width: 5px;
-            width:80%;
+            width:60%;
+            margin-left: 20% !important;
+            margin-right: 20% !important;
+            align-items: center;
         }
-
         h1 { font-style: oblique;
             font-size:xx-large;
             font-weight: bolder;
             color: rgb(49, 45, 45); 
+            text-align: center;
+            
         }
 
         h2 { font-style: italic;
@@ -27,7 +30,7 @@
         
         h3 { font-style: normal;
             font-size:medium ;
-            color:hsl(138, 87%, 37%)
+            color:hsl(137, 41%, 3%)
         }
 
         h4 { font-style: normal;
@@ -44,7 +47,7 @@
         }
 
         p{
-            width:75%
+            width:95%
         }
 
         th  {
@@ -52,15 +55,15 @@
         }
 
         td {
-            color: hsl(209, 88%, 53%);
+            color: hsl(209, 88%, 53%); font-weight:lighter;
         }
 
         .accordion {
-          background-color:rgb(236, 245, 196);
+          background-color:rgb(219, 237, 183);
           color: hsl(258, 71%, 5%);
           cursor: pointer;
           padding: 18px;
-          width: 100%;
+          width: 95%;
           border: none;
           text-align: left;
           outline: none;
@@ -69,7 +72,7 @@
         }
         
         .active, .accordion:hover {
-          background-color: hsl(73, 80%, 73%); 
+          background-color: hsl(49, 66%, 50%); 
         }
         
         .panel {
@@ -78,5 +81,29 @@
           background-color: 0ff567ab;
           overflow: hidden;
         }
+
+        .topPanel {
+            background-color: rgb(219, 237, 183);
+            padding: -25%;
+            align-items: center;
+        }
         
-    
+        .about_me {
+            margin-left: 15%;
+            margin-right: 15%;
+            text-align: center;
+        }
+
+        .nav-bar {
+            align-content: center;
+        }
+
+        .contact_me {
+            text-align: center;
+        }
+
+        .contactDetailsTable {
+            align-items: center;
+        }
+
+      
