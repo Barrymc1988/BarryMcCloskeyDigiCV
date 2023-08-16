@@ -1,3 +1,0 @@
-# BarryMcCloskeyDigiCV
-Digital CV
-# updatedDigiCVBarry
